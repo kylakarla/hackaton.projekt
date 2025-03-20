@@ -19,7 +19,7 @@ function App() {
         <Route path="/EndScreen" element={<EndScreen />} />
       </Routes>
     </Router>
-      
+
     </>
   )
 }

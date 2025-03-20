@@ -11,16 +11,16 @@ const IntroScreen = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-black text-white">
       <div className="text-center bg-white text-black p-6 rounded-2xl shadow-lg max-w-md">
-        <h2 className="text-xl font-bold mb-2">Welcome</h2>
+        <h2 className="text-xl font-bold mb-2">Tere tulemast!</h2>
         <p className="text-base mb-4">
           See mäng on küberturvalisuse õppimiseks!
-           Õpi looma tugevaid paroole,
-            vältima andmepüüki ja kaitsma oma andmeid lõbusal ja interaktiivsel viisil.
+           Õpi looma tugevaid paroole.
+            Parooli tehes väldi qwerty, password, 1234 ja oma nime.
         </p>
         <Link 
           to="/Stage0" 
           onClick={onStart}
-          className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+          className="bg-[#3BE489] hover:bg-[#2DBF73] text-white px-4 py-2 rounded-lg">
           Play
         </Link>
       </div>
