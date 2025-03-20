@@ -1,12 +1,47 @@
-# React + Vite
+Paroolimängu Projekt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ülevaade
 
-Currently, two official plugins are available:
+See projekt on interaktiivne kõrvalhariv mäng, mis aitab kasutajatel luua tugevaid paroole ning õpetab paroolide turvalisuse tähtsust. Mäng sisaldab erinevaid etappe, kus kasutajad peavad looma ja täiustama oma paroole vastavalt turvanõuetele.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Põhifunktsioonid
 
-## Expanding the ESLint configuration
+Parooli tugevuse hindamine reaalajas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Turvataseme edenemisriba
+
+Vale parooli korral valehäire efekti kuvamine
+
+Erimärkide minimäng
+
+Parooli andmebaasist lekkimise kontroll (kasutades API-päringuid)
+
+Lõpuekraan parooli edukast loomisest koos lisafunktsioonidega
+
+Kasutatud tehnoloogiad
+
+React.js - kasutajaliidese loomiseks
+
+Tailwind CSS - stiilide haldamiseks
+
+React Router - navigeerimiseks eri lehtede vahel
+
+Axios / Fetch API - paroolilekke kontrollimiseks
+
+Kuidas käivitada
+
+Paigalda vajalikud paketid:
+
+Käivita arenduskeskkond:
+
+Ava veebibrauseris aadressil http://localhost:5173
+
+Tulevased täiendused
+
+Mängule rohkem tasemeid ja väljakutseid
+
+Parooli genereerimise funktsioon
+
+Rohkem turvaharidust pakkuvaid elemente
+
+Meie projekt on sisuliselt password game. Meie programmis saad testida parooli tugevust ning lõpus saad näha kas sisestatud parool on esinenud andmelekkes. Mugavuse jaoks lisasime ka kopeerimise nupu.

@@ -17,7 +17,7 @@ function Game() {
     inputRef.current.focus();
   }, []);
 
-  const commonPasswords = ["password", "1234", "qwerty", "letmein", "admin", "iloveyou", "parool", ];
+  const commonPasswords = ["password", "1234", "qwerty", "letmein", "admin", "iloveyou", "parool","passw0rd" ];
 
   const validatePassword = (password) => {
     return [
@@ -53,7 +53,7 @@ function Game() {
     if (canProceed) {
       setPreviousCompletedStages(completedStages);
       setCompletedStages(requirementsMet.filter(Boolean).length);
-      console.log("Lõpp");
+      console.log("End");
       navigate("/EndScreen", { state: { password } });
     }
   };
@@ -77,7 +77,7 @@ function Game() {
           className={`w-full p-2 rounded bg-gray-700 text-white focus:outline-none ${inputDisabled ? "opacity-50 cursor-not-allowed" : ""}`}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="Sisesta parool"
+          placeholder="Enter password"
           disabled={inputDisabled}
         />
 
@@ -103,7 +103,7 @@ function Game() {
           }`}
           disabled={!canProceed}
         >
-          Lõpeta
+          Finish
         </button>
       </div>
 
